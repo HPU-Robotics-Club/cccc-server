@@ -12,7 +12,7 @@ def post_handle():
     y = json["controller_y"]
     r1 = json["controller_r1"]
     l1 = json["controller_l1"]
-    dup = json["constroller_dup"]
+    dup = json["controller_dup"]
     ddown = json["controller_ddown"]
 
     beltSpeed = 0
