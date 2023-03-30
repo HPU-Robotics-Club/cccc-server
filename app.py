@@ -11,7 +11,7 @@ def post_handle():
     x = json["controller_x"]
     y = json["controller_y"]
     r1 = json["controller_r1"]
-    l1 = json["controller_r2"]
+    l1 = json["controller_l1"]
     dup = json["constroller_dub"]
     ddown = json["controller_ddown"]
 
