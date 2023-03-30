@@ -66,6 +66,7 @@ def post_handle():
                     rightSpeed = -ySine * (x * 127 + xSine * 128)
 
     parseAndSendMotorCode(leftSpeed, rightSpeed, beltSpeed, isBeltForward, actSpeed, isActForward, serial)
+    return 'Success!'
 
 def parseAndSendMotorCode(leftSpeed: int, rightSpeed: int, beltSpeed: int, isBeltForward: bool, actSpeed: int, isActForward: bool, serial):
     # Parses speeds to have some low tolerance, because they will hardly ever actually be 0
